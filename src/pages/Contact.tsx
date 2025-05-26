@@ -7,7 +7,7 @@ const ContactPage: React.FC = () => {
     <section className={styles.contactPage}>
       <div className={styles.header}>
         <br />
-        <h1>Get in Touch</h1>
+        <h1 style={{ marginTop: "20px" }}>Get in Touch</h1>
         <h2>Questions? Feedback? We're Here.</h2>
         <p>
           Whether you're curious about our services, want to leave a suggestion,
