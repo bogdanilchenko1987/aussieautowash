@@ -1,0 +1,87 @@
+.section {
+  background-color: #f9fafb;
+  padding: 4rem 1rem;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 800;
+  color: #111827;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 1.125rem;
+  font-weight: 300;
+  color: var(--color-gray-500);
+  margin-bottom: 2rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  margin-bottom: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #111827;
+}
+
+.input,
+.textarea {
+  width: 100%;
+  font-size: 0.875rem;
+  padding: 0.75rem 1rem;
+  background-color: #f9fafb;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+  color: #111827;
+  resize: vertical;
+  font-family: inherit;
+}
+
+.input:focus,
+.textarea:focus {
+  border-color: var(--color-primary);
+  outline: none;
+}
+
+.button {
+  padding: 0.75rem 1.25rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: white;
+  background-color: #213547;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  width: fit-content;
+  align-self: flex-start;
+  transition: background-color 0.2s ease;
+}
+
+.button:hover {
+  background-color: #212121;
+}
+
+.button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}

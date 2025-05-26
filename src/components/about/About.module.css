@@ -1,0 +1,96 @@
+.whySection {
+  background-color: #ffffff;
+  padding: 4rem 1rem;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #0f172a;
+}
+
+.aboutTitle {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  color: #0f172a;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #1e293b;
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-size: 1rem;
+  color: #475569;
+  margin-bottom: 2rem;
+}
+
+.featuresGrid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: 1fr;
+  margin-top: 2rem;
+}
+
+.cofeeGrid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: 1fr;
+  margin-top: 2rem;
+}
+
+@media (min-width: 768px) {
+  .featuresGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .featuresGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .cofeeGrid {
+    margin-right: 1rem;
+  }
+}
+
+.featureCard {
+  background-color: #f8fafc;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.04);
+  transition: all 0.3s ease;
+  text-align: left;
+}
+
+.featureCard:hover {
+  transform: translateY(-5px);
+  background-color: #e0f2fe;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+
+.featureCard h3 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #0f172a;
+}
+
+.featureCard p {
+  font-size: 0.95rem;
+  color: #334155;
+  line-height: 1.5;
+}

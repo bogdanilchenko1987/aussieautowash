@@ -1,0 +1,57 @@
+.section {
+  background-color: #ffffff;
+  padding: 4rem 1rem;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  color: #0f172a;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 1.25rem;
+  color: #334155;
+  margin-bottom: 1.5rem;
+}
+
+.intro {
+  text-align: center;
+  font-size: 1rem;
+  color: #475569;
+  margin-bottom: 2rem;
+}
+
+.stepsList {
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.stepsList li h3 {
+  margin: 0.25rem 0;
+  color: #0f172a;
+  font-size: 1.125rem;
+}
+
+.stepsList li p {
+  margin: 0;
+  color: #475569;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.note {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #64748b;
+  text-align: center;
+}

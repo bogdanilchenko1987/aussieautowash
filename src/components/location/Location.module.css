@@ -1,0 +1,60 @@
+.section {
+  padding: 4rem 1rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #0f172a;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #475569;
+  margin-bottom: 2rem;
+}
+
+.grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  text-align: left;
+}
+
+.map {
+  width: 100%;
+  height: 250px;
+  border: 0;
+}
+
+.info {
+  padding: 1rem 1.25rem;
+  font-size: 0.95rem;
+  color: #374151;
+}
+
+.info h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  color: #1f2937;
+}
