@@ -4,7 +4,7 @@ const Terms: React.FC = () => {
   return (
     <section className="section">
       <br />
-      <h2>Terms and Conditions</h2>
+      <h2 style={{ marginTop: "20px" }}>Terms and Conditions</h2>
       <br />
       <p>
         Welcome to the official website of Aussie Auto Wash. By using this site,

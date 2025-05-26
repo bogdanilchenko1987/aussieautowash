@@ -1,6 +1,6 @@
 export default function Privacy() {
   return (
-    <section className="section">
+    <section style={{ marginTop: "20px" }} className="section">
       <br />
       <h2>Privacy Policy</h2>
       <br />
