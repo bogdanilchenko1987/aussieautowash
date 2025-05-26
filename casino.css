@@ -1,0 +1,184 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  color: #222;
+  line-height: 1.6;
+}
+header,
+footer {
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+}
+
+header h2 {
+  margin: 0;
+  color: #212121;
+}
+header a {
+  text-decoration: none;
+}
+nav {
+  margin-top: 10px;
+}
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+main {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+h1,
+h2 {
+  color: rgb(8, 2, 95);
+}
+ul {
+  list-style: none;
+}
+section {
+  margin-bottom: 40px;
+}
+footer a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #000;
+}
+.disclaimer {
+  font-size: 0.85rem;
+  color: #666;
+  margin-top: 40px;
+}
+
+.section {
+  background-color: #f9fafb;
+  padding: 4rem 1rem;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 800;
+  color: #111827;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 1.125rem;
+  font-weight: 300;
+  color: var(--color-gray-500);
+  margin-bottom: 2rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  margin-bottom: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #111827;
+}
+
+.input,
+.textarea {
+  width: 100%;
+  font-size: 0.875rem;
+  padding: 0.75rem 1rem;
+  background-color: #f9fafb;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+  color: #111827;
+  resize: vertical;
+  font-family: inherit;
+}
+
+.input:focus,
+.textarea:focus {
+  border-color: var(--color-primary);
+  outline: none;
+}
+
+.button {
+  padding: 0.75rem 1.25rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: white;
+  background-color: #213547;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  width: fit-content;
+  align-self: flex-start;
+  transition: background-color 0.2s ease;
+}
+
+.button:hover {
+  background-color: #212121;
+}
+
+.button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+@media (max-width: 600px) {
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container {
+    padding: 0 1rem;
+  }
+
+  .form {
+    padding: 1rem;
+  }
+
+  header,
+  footer {
+    padding: 15px;
+  }
+}
+
+section {
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
